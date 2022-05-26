@@ -1,6 +1,6 @@
 <?php
 
-namespace Tiger;
+namespace Tigra;
 
 use Exception;
 
@@ -11,7 +11,7 @@ use Exception;
  * @copyright   2022, rmsoft.be. (https://www.rmsoft.be/)
  * @license     https://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3 (GPL-3.0)
  * @version     7.4.1.0
- * @package     Tiger
+ * @package     Tigra
  */
 class Menu
 {
@@ -69,15 +69,15 @@ class Menu
      * @throws Exception
      */
     public function create(
-        string $menuType = 'tiger',
+        string $menuType = 'tigra',
         array $arrayMenu = [],
         array $args = [],
         string $id = '',
         string $class = ''
     ): string {
         switch ($menuType) {
-            case 'tiger':
-                $menu = new TigerMenu($this->menuData);
+            case 'tigra':
+                $menu = new TigraMenu($this->menuData);
                 break;
             case 'bootstrap':
                 $menu = new BootstrapMenu($this->menuData, $this->bootstrapOptions);

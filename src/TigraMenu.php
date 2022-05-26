@@ -1,22 +1,22 @@
 <?php
 
-namespace Tiger;
+namespace Tigra;
 
 /**
- * Class TigerMenu (PHP version 7.4)
+ * Class TigraMenu (PHP version 7.4)
  *
  * @author      Rudy Mas <rudy.mas@rmsoft.be>
  * @copyright   2022, rmsoft.be. (https://www.rmsoft.be/)
  * @license     https://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3 (GPL-3.0)
  * @version     7.4.1.0
- * @package     Tiger
+ * @package     Tigra
  */
-class TigerMenu
+class TigraMenu
 {
     private array $menuData;
 
     /**
-     * TigerMenu constructor.
+     * TigraMenu constructor.
      * @param array $menuData
      */
     public function __construct(array $menuData)

@@ -1,17 +1,17 @@
-# PHP Class Menu for the Tiger Framework
+# PHP Class Menu for the Tigra Framework
 
-This is the Class Menu which is used by Tiger.
+This is the Class Menu which is used by Tigra.
 
 ## Installation
 Install the package using composer.
 ```
-composer require tiger/menu
+composer require tigra/menu
 ```
 
 or by editing composer.json yourself and adding:
 ```
 "require": {
-    "tiger/menu": "*"
+    "tigra/menu": "*"
 }
 ```
 
@@ -21,5 +21,5 @@ This package includes the CSS and JavaScript file from Github repository [Bootst
 
 If you want to use multi level Dropdowns for your Bootstrap menu, don't forget to add following lines to your twig-template:
 
-    <script src="{{ BASE_URL }}/vendor/tiger/menu/src/js/bootstrap-4-navbar.js"></script>
-    <link href="{{ BASE_URL }}/vendor/tiger/menu/src/css/bootstrap-4-navbar.css" rel="stylesheet">
+    <script src="{{ BASE_URL }}/vendor/tigra/menu/src/js/bootstrap-4-navbar.js"></script>
+    <link href="{{ BASE_URL }}/vendor/tigra/menu/src/css/bootstrap-4-navbar.css" rel="stylesheet">

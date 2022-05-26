@@ -6,4 +6,4 @@ version: 7.4.1.0
 
 Menu: 7.4.1.0  
 BootstrapMenu: 7.4.1.0  
-TigerMenu: 7.4.1.0
+TigraMenu: 7.4.1.0
