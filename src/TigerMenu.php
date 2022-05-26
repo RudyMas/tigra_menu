@@ -16,7 +16,7 @@ class TigerMenu
     private array $menuData;
 
     /**
-     * EmvcMenu constructor.
+     * TigerMenu constructor.
      * @param array $menuData
      */
     public function __construct(array $menuData)
